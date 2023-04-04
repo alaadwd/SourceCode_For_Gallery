@@ -1,0 +1,41 @@
+*{
+	font-family: cursive;
+	text-align: center;
+}
+body{
+			background-image: url("Cat.jpg");
+			background-size: cover;
+			font-family: cursive;
+		}
+		h1{
+			text-align: center;
+		}
+		h1 p{
+			opacity: 1;
+		}
+
+button{
+
+
+	padding: 14px;
+	cursor: pointer;
+	width: 200px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	background-color: powderblue;
+}
+
+#increment-btn{
+	background-color: lightgreen;
+}
+
+#bttn {
+	background-color: darkred;
+}
+
+#Save {
+	background-color: powderblue;
+}

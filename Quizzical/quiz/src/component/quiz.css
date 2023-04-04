@@ -1,0 +1,22 @@
+.answers {
+    width: 100%;
+    padding: 40px;
+    padding-left: 0;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 24px;
+}
+
+.answer {
+    border: 1px solid #999;
+    border-radius: 20px;
+    padding:5px 30px ;
+    cursor: default;
+    font-size: 20px;
+    color: #293264;
+}
+
+.quiz--question {
+    margin-top: 14px;
+    color: #293264;
+}

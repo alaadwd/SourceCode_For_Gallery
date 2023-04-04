@@ -1,0 +1,36 @@
+* {
+	text-align: center;
+	background-color: #016f32;
+	font-family: cursive;
+/*	font-family: 'Trebuchet' , 'Lucida Sans Unicode' , 'Lucida Grande' , 'Lucida Sans' , Arial , sans-serif;
+*/	font-size: 36px;
+	color: white;
+	font-weight: bold;
+}
+
+h1 {
+	color: goldenrod;
+	font-size: 72px;
+
+}
+
+#messege-el{
+	font-family: cursive;
+}
+
+button {
+	color: #016f32;
+	width: 350px;
+	margin-top: 5px;
+	background-color: goldenrod;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	width: 52%;
+	cursor: progress;
+}
+
+button:hover {
+	transition: 0.3s;
+	background-color: #999;
+}

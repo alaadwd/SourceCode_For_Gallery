@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    /* background-color: #0052cc; */
+    color: black
+}
+
+body {
+/* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));} */
+/* background-image: linear-gradient(to right, red , yellow) */
+    background-image: linear-gradient(to right , white,powderblue)
+}
+
+
+.list--header{
+    text-align: center;
+    font-weight: 200;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input--field{
+    background-color: whitesmoke;
+    border-radius: 24px;
+    border: 1.7px solid gray;
+    padding: 14px;
+    width: 80%;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.form--label {
+    letter-spacing: 0.2rem
+}
+.input--btn{
+    padding: 14px;
+    background-color: lightcyan;
+    color: gray;
+    border: 2px solid gray;
+    border-radius: 24px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.todo--wrapper {
+    padding: 14px;
+}
+
+::marker {
+    color: cyan;
+    font-size: 1.4rem;
+}
+.trash--icon {
+    font-size: 12px;
+}
+ul {
+    display: flex;
+}
+ul button {
+    margin-left: 120px;
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+ul button i {
+    color: gray;
+}
